@@ -1,4 +1,5 @@
 def mergeall():
+    import pandas as pd
     file1=pd.read_csv('C:/Users/lenovo/Documents/FE595-HW3/result.txt', sep=("---"), header=None)
     file1[0] = file1[0].str[6:]
     file1[1] = file1[1].str[9:]
