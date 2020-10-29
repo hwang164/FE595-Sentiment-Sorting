@@ -1,9 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[ ]:
-
-
 def sentimentanalysis():
     from vaderSentiment.vaderSentiment import SentimentIntensityAnalyzer
     # Call vader sentiment
@@ -19,4 +13,3 @@ def sentimentanalysis():
 
 if __name__ == "__main__":
     sentimentanalysis()
-
