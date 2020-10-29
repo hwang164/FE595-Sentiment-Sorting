@@ -22,7 +22,6 @@ def mergeall():
     file=pd.concat([file,file5])
     
     file=file.reset_index(drop=True)
-    file.to_csv("Allcompanies.csv", index=False, encoding="utf-8")
 
 
 if __name__ == "__main__":
