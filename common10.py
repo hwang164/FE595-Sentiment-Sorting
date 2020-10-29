@@ -1,9 +1,3 @@
-#!/usr/bin/env python
-# coding: utf-8
-
-# In[ ]:
-
-
 def common10():
     from collections import Counter
     a=[]
@@ -20,4 +14,3 @@ def common10():
 
 if __name__ == "__main__":
     common10()
-
